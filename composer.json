@@ -1,0 +1,17 @@
+{
+  "name": "erzss/servicedesk",
+  "description": "ERZSS modular ServiceDesk platform skeleton",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "core/"
+    },
+    "files": [
+      "core/helpers/response.php",
+      "core/helpers/sanitize.php"
+    ]
+  }
+}
