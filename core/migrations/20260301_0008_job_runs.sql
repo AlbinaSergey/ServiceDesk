@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS job_runs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  job_name VARCHAR(190) NOT NULL,
+  status VARCHAR(16) NOT NULL,
+  started_at DATETIME NOT NULL,
+  finished_at DATETIME NULL,
+  message TEXT NULL
+);
